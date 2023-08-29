@@ -1,0 +1,11 @@
+INSERT INTO Documentation VALUES ('api/values', 'GET', 'Returns a string of hardcoded values', '123')
+SELECT * FROM Documentation
+INSERT INTO Documentation VALUES ('api/values/{nimi}', 'GET', 'Returns a greeting directed at the string passed in the URI', '123')
+INSERT INTO Documentation VALUES ('api/values{etunimi}/{sukunimi}', 'GET', 'Returns a greeting directed at the strings passed in the URI', '123')
+INSERT INTO Documentation VALUES ('omareitti/merkkijono/{nimi}', 'GET', 'Returns a greeting directed at the strings passed in the URI', '123')
+INSERT INTO Documentation VALUES ('omareitti/paivamaara', 'GET', 'Returns the date and time', '123')
+INSERT INTO Documentation VALUES ('omareitti/olio', 'GET', 'Returns the information contained in an object', '123')
+INSERT INTO Documentation VALUES ('omareitti/oliot', 'GET', 'Returns the information contained in a list of objects', '123')
+INSERT INTO Documentation VALUES ('nw/', 'GET', 'Returns the data in Costumers table', '123')
+INSERT INTO Documentation VALUES ('nw/{id}', 'GET', 'Returns the data of the costumer with the id passed in the URI', '123')
+INSERT INTO Documentation VALUES ('nw/country/{key}', 'GET', 'Returns the data of all costumers reside in the country passed in the URI', '123')
